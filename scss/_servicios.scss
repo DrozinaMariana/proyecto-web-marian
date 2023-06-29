@@ -1,0 +1,28 @@
+.servicios__estudio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: inherit;
+    margin-bottom: 2%;
+}
+
+#subtitulo__servicios {
+    color: aliceblue;
+    background-color: black;
+    margin-left: 2%;
+    margin-bottom: 3%;
+}
+
+.card {
+    .card-body {
+        background-color: rgb(74, 72, 72);
+    }
+    .card-text {
+        background-color: rgb(74, 72, 72);
+        color: aliceblue;
+    }
+    .card-title {
+        background-color: rgb(74, 72, 72);
+        color: aliceblue;
+    }
+}

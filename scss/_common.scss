@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Nanum Gothic", sans-serif;
+    font-size: medium;
+}
+
+body {
+    background-color: rgb(34, 33, 33);
+}
+
+body {
+    h1 {
+        font-family: "Noto Sans", sans-serif;
+        font-size: 30px;
+        font-weight: 400px;
+        text-align: center;
+        color: aliceblue;
+        padding: 4%;
+        margin-bottom: 3%;
+    }
+}
+
+body {
+    h2 {
+        padding: 2%;
+        font-size: x-large;
+        color: aliceblue;
+    }
+    h3 {
+        padding: 3%;
+        margin-bottom: 3%;
+        font-size: x-large;
+        color: aliceblue;
+    }
+}
+
+.logo {
+    width: 140px;
+    display: block;
+}
+
+.imagen__logo {
+    width: 40%;
+    img {
+        width: 140px;
+    }
+}
+
+.barraNav {
+    width: 100%;
+    a {
+        display: block;
+        color: aliceblue;
+    }
+}
+
+.imagenPrincipal {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    object-position: top;
+}
+
+
+/* pie de página*/
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding: 5%;
+    .footer__podemos {
+        text-align: center;
+        width: 45%;
+    }
+    .img__fotter__redes {
+        display: flex;
+        width: 30%;
+        color: aliceblue;
+        img {
+            display: block;
+            justify-content: center;
+            align-items: center;
+            width: 15%;
+            margin: 6%;
+        }
+        &:hover {
+            font-weight: bold;
+            font-size: large;
+        }
+    }
+    .footer__contactenos {
+        width: 50%;
+        color: aliceblue;
+        h3 {
+            padding: 5%;
+        }
+    }
+    .footer__logo {
+        width: 100px;
+    }
+}

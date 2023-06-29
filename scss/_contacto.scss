@@ -1,0 +1,33 @@
+.formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: auto;
+    form {
+        width: 45%;
+        margin-right: 2%;
+        div {
+            .form-label {
+                color: aliceblue;
+            }
+        }
+        buttom {
+            color: aliceblue;
+        }
+    }
+    .ubicacion {
+        width: 40%;
+        padding-left: 2%;
+        p {
+            color: aliceblue;
+            font-size: large;
+            i {
+                span {
+                    padding-left: 10px;
+                }
+            }
+        }
+    }
+}

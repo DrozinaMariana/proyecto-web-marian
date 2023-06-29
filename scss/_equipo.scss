@@ -1,0 +1,23 @@
+    #equipo {
+        div {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            .equipo__imagen {
+                display: block;
+                margin: 2%;
+                .img__peq {
+                    width: 180px;
+                    height: 180px;
+                }
+            }
+            .equipo__texto {
+                width: 64%;
+                background-color: rgb(34, 33, 33);
+                color: aliceblue;
+                text-align: start;
+                font-size: large;
+                margin: 2%;
+            }
+        }
+    }

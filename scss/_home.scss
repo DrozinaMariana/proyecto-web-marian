@@ -1,0 +1,84 @@
+    .imagen__carrusel {
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+        object-position: top;
+    }
+    
+    .subtitulo__index {
+        margin-top: 3%;
+        margin-bottom: 3%;
+        margin-left: 2%;
+        color: aliceblue;
+    }
+    
+    .subtitulo__index__alcance {
+        @extend .subtitulo__index;
+        font-size: large;
+        margin: 4%;
+        text-align: start;
+        span {
+            font-size: x-large;
+        }
+    }
+    
+    .home__servicios {
+        display: flex;
+        .home__servicios__imagenes {
+            display: block;
+            width: 45%;
+            img {
+                width: 419px;
+                height: 338px;
+                object-fit: contain;
+                padding-left: 4%;
+            }
+        }
+        .home__servicios__texto {
+            display: grid;
+            grid-template-rows: 0.5fr 1fr;
+            grid-template-columns: 2fr;
+            grid-template-areas: "titulo__servicio titulo__servicio " "lista1 lista2";
+            width: 50%;
+            color: whitesmoke;
+            padding: 2%;
+            #titulo__servicio {
+                grid-area: titulo__servicio;
+                text-align: inherit;
+                font-size: x-large;
+                font-weight: bold;
+                color: whitesmoke;
+                margin: 2%;
+            }
+            .listado__servicios1 {
+                grid-area: lista1;
+                ul {
+                    li {
+                        list-style-type: none;
+                        a {
+                            font-size: medium;
+                            text-decoration: none;
+                        }
+                        &:hover {
+                            font-weight: bold;
+                        }
+                    }
+                }
+            }
+        }
+        .listado__servicios2 {
+            grid-area: lista2;
+            ul {
+                li {
+                    list-style-type: none;
+                    a {
+                        font-size: medium;
+                        text-decoration: none;
+                    }
+                    &:hover {
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+    }
